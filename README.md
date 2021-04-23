@@ -91,7 +91,7 @@ The +nightly-2021-01-07 instructs cargo to build with a specific nightly rust bu
 
 You may want to set a local override if you are frequently compiling. Type the cargo override command in the project directory:
 
-    cargo override set nightly-2021-01-07
+    rustup override set nightly-2021-01-07
 
 You can build without specifying the +nightly-2021-01-07 option once you set the override. 
 
